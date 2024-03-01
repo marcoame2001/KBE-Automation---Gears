@@ -1,5 +1,11 @@
 Note: The motion files for the gears can be found inside the folder final_code/Animation
 
+- Gear.py: Manages the parameters received as input in order to generate the forms for the gears and their location
+- Shapes folder: This folder contains Block.py and Cylinder.py, which are used by Gear.py to generate the customized shapes for the model (including cutting the original forms
+to reach the desired appeareance in a modular way)
+- Motion: Contains the Motion.py file that manages all the file generation for the model in movement
+- Animation: Contains generated examples for our models
+
 Input console from SIEMENS NX with the parameters for the gears design and motion:
 
 <img width="290" alt="image" src="https://github.com/marcoame2001/KBE-Automation---Gears/assets/143449334/6f71227b-b4f5-443b-bbeb-d124c32e4327">
